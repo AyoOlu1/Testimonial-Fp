@@ -1,0 +1,69 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #f2f5fa;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+h1 {
+  margin-top: 4rem;
+  color: #227cb8;
+}
+header p {
+  margin: 1rem;
+  text-align: center;
+}
+.testimonial-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sarah-wilson,
+.jena-karlis {
+  background-color: white;
+  width: 40%;
+  padding: 2rem 2rem 2rem 4rem;
+  margin-bottom: 1rem;
+  position: relative;
+}
+h2 {
+  font-size: 0.9rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+span {
+  font-size: small;
+  color: #707071;
+  margin-bottom: 2rem;
+}
+/* svg {
+  margin-bottom: ;
+} */
+.profile-pic {
+  width: 4rem;
+  height: auto;
+  position: absolute;
+  top: 10%;
+  left: -9%;
+  border: 3px solid white;
+}
+.sarah-wilson p,
+.jena-karlis p {
+  font-style: italic;
+}
+
+@media (min-width: 1024px) {
+  .testimonial-container {
+    flex-direction: row;
+    margin: 1rem 7rem;
+  }
+  .sarah-wilson {
+    margin-right: 5rem;
+  }
+}
